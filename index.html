@@ -5,17 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sign up</title>
 </head>
 <body>
     <div class="container">
         <div class="leftbar">
-
-            <footer>Photo by</footer>
+            <div class="logo">
+                <img src="./odin.png" style="height: 150px; width: 100px;">
+                <h1 class="logo-text"> O D I N </h1>
+            </div>
+            <div class="footer">Photo by <strong> Visax </strong> on <em> Unsplash </em></div>
         </div>
         <div class="rightbar">
             <div class="content-container">
-
+                <header>This is not a real online service! You know you need something like this
+                    in your life to help you realize your deepest dreams. Sign up now to get started.
+                </header>
+                <h3>You <i> know </i>you want to.</h3>
+                <form method="post">
+                    <h3 class="form-header">Let's do this!</h3>
+                    <div class="input-grid">
+                        <div class="first-name">
+                            <p>FIRST NAME</p>
+                            <input type="text" name="first_name" placeholder="John">
+                        </div>
+                        <div class="last-name">
+                            <p>LAST NAME</p>
+                            <input type="text" name="last_name" placeholder="Doe">
+                        </div>
+                        <div class="email">
+                            <p> EMAIL </p>
+                            <input type="email" name="email" placeholder="john.doe@yourmail.com">
+                        </div>
+                        <div class="phone-number">
+                            <p> PHONE NUMBER</p>
+                            <input type="number" name="phone_number" placeholder="(+123) 456-789">
+                        </div>
+                        <div class="password">
+                            <p>PASSWORD</p>
+                            <input type="password" name="password">
+                        </div>
+                        <div class="confirm-password">
+                            <p>PASSWORD</p>
+                            <input type="password" name="confirm_password">
+                        </div>
+                    </div>
+                </form>
+                <div class="form-action">
+                    <button>Create Account</button>
+                    <h4>Already have an account? <a>Log in</a></h4>
+                </div>
             </div>
         </div>
     </div>
