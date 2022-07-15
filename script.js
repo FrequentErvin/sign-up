@@ -6,7 +6,7 @@ for(let i = 0; i < inputArray.length; i++){
     inputArray[i].addEventListener("keydown", function(e){
         var whichkey = checkKey(e);
         if(whichkey == 13){
-            e.preventDefault;
+            /* e.preventDefault; */
             focusNext(i)
         }
     });

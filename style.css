@@ -100,9 +100,13 @@ input{
     border-style:none;
     box-shadow: var(--shadow);
 }
-input:active{
-    border-color: var(--light-green)
+input:valid{
+    border-color: var(--light-green);
 }
+input:invalid{
+    border-color: var(--light-red);
+}
+
 header{
     font-size: 30px;
     font-weight: 600;
