@@ -16,7 +16,7 @@
     --spacing-md: 15px;
     --spacing-lg: 20px;
     --spacing-xl: 40px;
-    --width: 30vw;
+    --width: 50vw;
     --shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 html{
@@ -34,6 +34,7 @@ html{
     flex-direction: column;
     justify-content: space-between;
     width: var(--width);
+    box-shadow: var(--shadow);
 }
 .logo{
     margin-top: 200px;
@@ -81,21 +82,26 @@ html{
 .content-container button:hover{
     transform: scale(1.01);
     background-color: var(--white);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--light-green);
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: var(--light-green);
 }
-.input-grid p{
+.input-grid label{
     font-weight: 700;
     font-size: 12px;
 }
-
+.input-grid div{
+    display: flex;
+    flex-direction: column;
+}
 input{
     width: 300px;
     padding: 12px 20px;
-    border-style: solid;
-    border-width: 1px 3px 3px 1px;
-    border-color: var(--grey);
+    border-style:none;
+    box-shadow: var(--shadow);
+}
+input:active{
+    border-color: var(--light-green)
 }
 header{
     font-size: 30px;
@@ -103,4 +109,7 @@ header{
 }
 .content-container h4{
     margin-top: var(--spacing-lg)
+}
+.rightbar{
+ /*    background-color: var(--grey); */
 }

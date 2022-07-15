@@ -26,33 +26,33 @@
                     <h3 class="form-header">Let's do this!</h3>
                     <div class="input-grid">
                         <div class="first-name">
-                            <p>FIRST NAME</p>
-                            <input type="text" name="first_name" placeholder="John">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="John" required>
                         </div>
                         <div class="last-name">
-                            <p>LAST NAME</p>
-                            <input type="text" name="last_name" placeholder="Doe">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
                         </div>
                         <div class="email">
-                            <p> EMAIL </p>
-                            <input type="email" name="email" placeholder="john.doe@yourmail.com">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="johndoe@yourmail.com" required>
                         </div>
                         <div class="phone-number">
-                            <p> PHONE NUMBER</p>
-                            <input type="number" name="phone_number" placeholder="(+123) 456-789">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="number" name="phone_number" id="phone_number" placeholder="(+123) 456-789" required>
                         </div>
                         <div class="password">
-                            <p>PASSWORD</p>
-                            <input type="password" name="password">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="confirm-password">
-                            <p>PASSWORD</p>
-                            <input type="password" name="confirm_password">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm_password" id="confirm_password" required>
                         </div>
                     </div>
                 </form>
                 <div class="form-action">
-                    <button>Create Account</button>
+                    <button type="submit">Create Account</button>
                     <h4>Already have an account? <a>Log in</a></h4>
                 </div>
             </div>
